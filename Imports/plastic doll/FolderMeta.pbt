@@ -1,0 +1,95 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "3f70534030604909a5a19f4acab942c4"
+  OwnerAccountId: "4b7a6765c33a4b2883255bdcb25cd5bf"
+  OwnerName: "omartin311"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 355393800976671822
+  value: 13380114571776120582
+}
+AssetIdsOriginalToNew {
+  key: 665002719345791297
+  value: 16994931192994827986
+}
+AssetIdsOriginalToNew {
+  key: 1220575811611873265
+  value: 14063154083237106776
+}
+AssetIdsOriginalToNew {
+  key: 1333156479911385049
+  value: 4890753737890063932
+}
+AssetIdsOriginalToNew {
+  key: 2086348707826482187
+  value: 15044432575055891907
+}
+AssetIdsOriginalToNew {
+  key: 3627873669123614062
+  value: 2627218072531369335
+}
+AssetIdsOriginalToNew {
+  key: 4575417106787186568
+  value: 8456187722629051876
+}
+AssetIdsOriginalToNew {
+  key: 5087930244789314614
+  value: 6355343036382437462
+}
+AssetIdsOriginalToNew {
+  key: 5241962515249041347
+  value: 14283553110005603090
+}
+AssetIdsOriginalToNew {
+  key: 7525939621726506380
+  value: 16765132256661304587
+}
+AssetIdsOriginalToNew {
+  key: 7587414434182616051
+  value: 372451966923061812
+}
+AssetIdsOriginalToNew {
+  key: 8403796400896191102
+  value: 10004682580279802193
+}
+AssetIdsOriginalToNew {
+  key: 9573222902462774215
+  value: 1417185348237237724
+}
+AssetIdsOriginalToNew {
+  key: 10930648566318223857
+  value: 8945418248038605177
+}
+AssetIdsOriginalToNew {
+  key: 11188400887466481626
+  value: 9967300701500584419
+}
+AssetIdsOriginalToNew {
+  key: 12010971680560981867
+  value: 8776809108606694870
+}
+AssetIdsOriginalToNew {
+  key: 12071066205087878182
+  value: 11033444963597065140
+}
+AssetIdsOriginalToNew {
+  key: 12261395852561987998
+  value: 17319792399362570472
+}
+AssetIdsOriginalToNew {
+  key: 16210679717848990789
+  value: 12568254437533780317
+}
+AssetIdsOriginalToNew {
+  key: 17135663244313829614
+  value: 15159694422864556596
+}
+AssetIdsOriginalToNew {
+  key: 17822369343668163079
+  value: 7266806533041168466
+}
+AssetIdsOriginalToNew {
+  key: 18392835360620354185
+  value: 1940082554348166547
+}
