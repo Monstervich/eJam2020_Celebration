@@ -18,6 +18,7 @@ Objects {
   ChildIds: 424735882080447432
   ChildIds: 7744955876797511653
   ChildIds: 8917329076335971620
+  ChildIds: 866872369377466556
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -27,6 +28,46 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 866872369377466556
+  Name: "Balloon"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8649408306538322092
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2268189990821749360
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Balloon"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3342.96362
+            Y: 1332.58179
+            Z: 57.1551208
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13985947891532088969
+    }
   }
 }
 Objects {
