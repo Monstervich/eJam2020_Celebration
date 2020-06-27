@@ -19,6 +19,7 @@ Objects {
   ChildIds: 7744955876797511653
   ChildIds: 8917329076335971620
   ChildIds: 866872369377466556
+  ChildIds: 9847665342268025869
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -28,6 +29,47 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9847665342268025869
+  Name: "Animated PACMAN Ghosts"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8649408306538322092
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11267979070030055933
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Animated PACMAN Ghosts"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2850
+            Y: 1850
+            Z: 50
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6333858327274497798
+    }
   }
 }
 Objects {
