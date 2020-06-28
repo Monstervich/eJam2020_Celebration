@@ -1372,6 +1372,7 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
+      X: 22.8374023
     }
     Rotation {
       Yaw: 89.9999542
@@ -1484,6 +1485,7 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
+      X: 22.8374023
     }
     Rotation {
     }
@@ -3105,6 +3107,7 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
+      X: 22.8374023
     }
     Rotation {
       Yaw: 179.999954
@@ -3217,9 +3220,10 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
+      X: 22.8374023
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -3644,6 +3648,18 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3698,6 +3714,18 @@ Objects {
         G: 0.385417
         B: 0.385417
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10184847056121543272
       }
     }
   }
@@ -3756,6 +3784,18 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3809,6 +3849,18 @@ Objects {
         G: 0.385417
         B: 0.385417
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 10184847056121543272
       }
     }
   }

@@ -180,7 +180,7 @@ Objects {
   Name: "Top Down Camera"
   Transform {
     Location {
-      Z: 400
+      Z: 500
     }
     Rotation {
     }
@@ -485,9 +485,6 @@ Objects {
       Z: 500
     }
     Rotation {
-      Pitch: -90
-      Yaw: 2.530478
-      Roll: -2.53039551
     }
     Scale {
       X: 1
@@ -556,7 +553,7 @@ Objects {
     IsDefault: true
     PlayerMovementSettings {
       WalkSpeed: 640
-      MaxAcceleration: 540
+      MaxAcceleration: 1800
       WalkableFloorAngle: 44
       JumpMaxCount: 1
       JumpVelocity: 900
@@ -568,7 +565,7 @@ Objects {
       BrakingDecelerationFlying: 600
       MaxFlightSpeed: 600
       MovementControlMode {
-        Value: "mc:emovementcontrolmode:viewrelative"
+        Value: "mc:emovementcontrolmode:lookrelative"
       }
       LookControlMode {
         Value: "mc:elookcontrolmode:absolute_tocursor"
@@ -647,6 +644,108 @@ Objects {
     TemplateAsset {
       Id: 17998572212483534985
     }
+  }
+}
+Objects {
+  Id: 7855857303350524670
+  Name: "Starting Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10660514683103198883
+  ChildIds: 7291685923770599609
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 16003821234443549398
+      }
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Team"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:EquipmentTemplate:tooltip"
+      String: "Equipment template to give to players"
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn:tooltip"
+      String: "Whether to replace that equipment every time a player spawns"
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "If non-zero, only give equipment to players on that team"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 7855857303350524670
+    SubobjectId: 16657464430720987128
+    InstanceId: 8037118865340018493
+    TemplateId: 14615028099963445761
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 7291685923770599609
+  Name: "StaticPlayerEquipmentServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7855857303350524670
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 7855857303350524670
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3403025055362370891
+    }
+  }
+  InstanceHistory {
+    SelfId: 7291685923770599609
+    SubobjectId: 17230748584674696639
+    InstanceId: 8037118865340018493
+    TemplateId: 14615028099963445761
   }
 }
 Objects {
@@ -731,7 +830,7 @@ Objects {
   Settings {
     TeamSettings {
       TeamMode_v2 {
-        Value: "mc:eteammode:ffa"
+        Value: "mc:eteammode:teamsvs"
       }
     }
   }
@@ -795,7 +894,7 @@ Objects {
     GameSettings {
       RagdollOnDeath: true
       ChatMode {
-        Value: "mc:echatmode:none"
+        Value: "mc:echatmode:teamonly"
       }
     }
   }

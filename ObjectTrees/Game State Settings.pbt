@@ -245,6 +245,14 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "cs:RequiredPlayers"
+          Int: 1
+        }
+        Overrides {
+          Name: "cs:CountdownTime"
+          Float: 5
+        }
       }
     }
     TemplateAsset {

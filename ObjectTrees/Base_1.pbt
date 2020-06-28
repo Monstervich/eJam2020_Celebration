@@ -218,11 +218,11 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 1324.99365
-      Y: -1149.99573
+      X: 1302.01367
+      Y: -1149.88342
     }
     Rotation {
-      Yaw: 89.9999619
+      Yaw: 89.9999542
     }
     Scale {
       X: 1

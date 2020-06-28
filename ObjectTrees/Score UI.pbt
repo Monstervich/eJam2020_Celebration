@@ -1,6 +1,83 @@
 Name: "Score UI"
 RootId: 6402322763661558735
 Objects {
+  Id: 12110394720232566758
+  Name: "Scoreboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6402322763661558735
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3772104818986187317
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Scoreboard"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9750537744248185750
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 60
+        }
+        Overrides {
+          Name: "Width"
+          Int: 1200
+        }
+        Overrides {
+          Name: "Height"
+          Int: 610
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3612015550098073755
+    }
+  }
+}
+Objects {
   Id: 17789806594076446868
   Name: "Team 2 Score UI"
   Transform {
